@@ -1,0 +1,6 @@
+Express : js frameworks for backend
+Mongodb : database
+Mongoose : connection to mongodb
+Postman : tool to test endpoints
+Pusher : make the mongodb realtime
+

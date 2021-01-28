@@ -1,0 +1,46 @@
+/***** APP BASE *****/
+
+.app {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background-color: #dadbd3;
+}
+
+.app h2{
+  font-size: 1em;
+  font-weight: 600;
+}
+
+.app p {
+  font-size: 0.9em;
+}
+
+
+/***** APP BODY *****/
+
+.app_body {
+  display: flex;
+  background-color: #ededed;
+  margin-top: -5vh;
+  height: 90vh;
+  width: 90vw;
+  box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.75);
+}
+
+
+/***** LEFT SIDE MENU *****/
+
+.left_side_menu {
+  flex: 0.30;
+  min-width: 220px;
+}
+
+
+/***** RIGHT CHAT BOX *****/
+
+.right_chat_box {
+  flex: 0.70;
+}
+
+

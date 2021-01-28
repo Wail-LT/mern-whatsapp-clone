@@ -1,0 +1,77 @@
+/***** SIDEBARCHAT BASE *****/
+.sidebarChat{
+    display: flex;
+    align-items: center;
+    transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    padding: 15px;
+    padding-bottom: 0;
+}
+
+.sidebarChat:hover{
+    background-color: rgba(0, 0, 0, 0.03);
+    cursor: pointer;
+}
+
+.sidebarChat:focus{
+    background-color: lightgray;
+}
+
+
+/***** SIDEBARCHAT AVATAR *****/
+.sidebarChat_avatar{
+    padding-bottom: 15px;
+}
+
+/***** SIDEBARCHAT INFO *****/
+.sidebarChat_info{
+    flex:1;
+    overflow: hidden;
+    margin-left: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid lightgray;
+}
+
+.sidebarChat_infoHeader{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.sidebarChat_infoHeader .senderName{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 1em;
+}
+
+div.sidebarChat_infoHeader .lastMessageDate {
+    font-size: 0.7em;
+    text-align: end;
+    margin-left: 15px;
+}
+
+.sidebarChat_infoBody{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    white-space: nowrap;
+    font-size: 0.9em;
+    color: rgba(0, 0, 0, 0.7);   
+}
+
+.sidebarChat_infoBody p{
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.sidebarChat_expandMore{
+    width: 0;
+    opacity: 0;
+    height: 24px;
+    transition: all 150ms cubic-bezier(1, 0, 0.2, 1) 150ms;
+}
+
+.sidebarChat:hover .sidebarChat_expandMore{
+    width: 24px;
+    opacity: 1;
+}

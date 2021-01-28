@@ -1,0 +1,43 @@
+/***** CHATBOX BASE *****/
+.chatbox {
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid lightgray;
+    height: 100%;
+}
+
+
+/***** CHATBOX HEADER *****/
+.chatbox_header {
+    padding : 5px 5px;
+    display: flex;
+    flex: 0 0 auto;
+    align-items: center;
+    background-color: rgba(0,0,0, 0.05);
+}
+
+
+/***** CHATBOX HEADER LEFT*****/
+.chatbox_headerLeft {
+    flex: 0 0 auto;
+}
+
+
+/***** CHATBOX HEADER MIDDLE*****/
+.chatbox_headerMiddle {
+    flex: 1 1 auto;
+    margin-left: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+.chatbox_content{
+    flex: 1 1;
+}
